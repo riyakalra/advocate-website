@@ -150,7 +150,15 @@ html, body {
 /* -------------Footer------------------- */
 
 footer {
-    padding: 0.5rem;
+    padding-top: 0.5rem;
     text-align: center;
     background-color: #b2ebf2;
+}
+
+.made-by {
+    background-color: #77d8d8 ;
+}
+
+.made-by-txt {
+    margin: 0;;
 }

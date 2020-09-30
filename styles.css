@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -53,13 +54,16 @@ html, body {
 }
 
 .top-section {
+    background-attachment: fixed;
     width: 100%;
     padding: 0 7%;
     display: table;
     margin: 0;
     max-width: 100%;
     background-color: #b2ebf2;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/bg.jpg);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/bg.jpg); */
+background-image: url(images/bg.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
@@ -111,7 +115,7 @@ html, body {
 
 #youtube {
     margin-bottom: 6rem;
-    padding-top: 5rem ;
+    padding-top: 5rem;
     margin: 4rem auto 6rem auto;
 }
 
@@ -143,7 +147,9 @@ html, body {
     bottom: -50px;
 }
 
-.carousel-control-next, .carousel-control-prev, .carousel-indicators {
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
     filter: invert(100%);
 }
 
@@ -156,9 +162,21 @@ footer {
 }
 
 .made-by {
-    background-color: #77d8d8 ;
+    background-color: #77d8d8;
 }
 
 .made-by-txt {
-    margin: 0;;
+    margin: 0;
+    ;
+}
+
+.nav-item {
+    background-color: white;
+    color: black;
+}
+
+
+.nav-item:hover {
+    background-color: #008CBA;
+    color: white;
 }

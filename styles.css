@@ -45,7 +45,6 @@ html, body {
     font-weight: 600;
     background-color: #e4e4e4;
     opacity: 1;
-    z-index: 1;
     /* For shadow: */
     -webkit-box-shadow: 0 8px 3px -6px #999;
     -moz-box-shadow: 0 8px 3px -6px #999;
